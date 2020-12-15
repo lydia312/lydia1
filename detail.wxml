@@ -1,0 +1,20 @@
+<scroll-view scroll-y="true" class="contain_detail_cnt" style="height:{{winHeight - 40}}px;">
+    
+    <!-- 标题 -->
+    <view class="box-title">
+      <text class="title">{{data.title}}</text>
+    </view>
+  
+    <!-- 内容 -->
+    <view class="content" scroll-y="true">
+      <block wx:for="{{databody}}">
+        <image class="scrollLoading" src="{{item[0]}}" mode="aspectFill" wx:if="{{item.length === 3}}"/>
+        <view class="contView" wx:else>{{item}}</view>
+      </block>
+    </view>
+  
+  
+  
+  
+  </scroll-view>
+  

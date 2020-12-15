@@ -1,0 +1,12 @@
+
+
+<image class="bg-image" mode="scaleToFill" src="../../images/beiwanglu.png"></image>
+
+
+
+  <view class="outInput">
+<textarea maxlength="-1" type="text" placeholder="请输入" bindinput="onInputText" value='{{inputText}}'>
+</textarea>
+</view>
+
+<image class="bg-image1" mode="scaleToFill" src="../../images/cats.png"></image>

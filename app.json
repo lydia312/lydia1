@@ -1,0 +1,49 @@
+{
+"pages": [
+  "pages/start/start",
+  "pages/page/detail/detail",
+  "pages/page/index/index",
+  "pages/wifi_station/memory/memory",
+  "pages/wifi_station/tianqi/tianqi"
+],
+"window": {
+  "backgroundColor": "#F6F6F6",
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#F6F6F6",
+  "navigationBarTitleText": "出行小助手",
+  "navigationBarTextStyle": "black"
+},
+"sitemapLocation": "sitemap.json",
+"style": "v2",
+"tabBar": {
+  "selectedColor": "#13227a",
+  "color": "#707070",
+  "backgroundColor": "#F8F8FF",
+  "list": [
+    {
+      "selectedIconPath": "pages/images/tabber/shouye2.png",
+      "iconPath": "pages/images/tabber/shouye1.png",
+      "pagePath": "pages/start/start",
+      "text": "首页"
+    },
+    {
+      "selectedIconPath": "pages/images/tabber/tianqi2.png",
+      "iconPath": "pages/images/tabber/tianqi1.png",
+      "pagePath": "pages/wifi_station/tianqi/tianqi",
+      "text": "天气"
+    },
+    {
+      "selectedIconPath": "pages/images/tabber/newspaper2.png",
+      "iconPath": "pages/images/tabber/newspaper1.png",
+      "pagePath": "pages/page/index/index",
+      "text": "日报"
+    },
+    {
+      "selectedIconPath": "pages/images/tabber/bijiben2.png",
+      "iconPath": "pages/images/tabber/bijiben1.png",
+      "pagePath": "pages/wifi_station/memory/memory",
+      "text": "备忘录"
+    }
+  ]
+}
+}

@@ -1,0 +1,30 @@
+<view class="humi-wrap">
+  <view class="humi">湿度：</view>
+  <view class="humiinput">{{humi}}</view>
+</view>
+<view class="temp-wrap">
+  <view class="temp">温度：</view>
+  <view class="tempinput">{{temp}}</view>
+</view>
+
+<view class="advise">
+<view wx:if = "{{temp >= 37 && humi >= 0 && humi <= 50}}">{{ad1}}</view>
+<view wx:elif = "{{temp >= 28 && temp <37 && humi >30 && humi <= 90}}">{{ad2}}</view>
+<view wx:elif = "{{temp >= 24 && temp <28 && humi >10 && humi <= 40}}">{{ad3}}</view>
+<view wx:elif = "{{temp >= 24 && temp <28 && humi >40 && humi <= 90}}">{{ad4}}</view>
+<view wx:elif = "{{temp >= 18 && temp <24 && humi >10 && humi <= 40}}">{{ad5}}</view>
+<view wx:elif = "{{temp >= 18 && temp <24 && humi >40 && humi <= 90}}">{{ad6}}</view>
+<view wx:elif = "{{temp >= 11 && temp <18 && humi >10 && humi <= 50}}">{{ad7}}</view>
+<view wx:elif = "{{temp >= 11 && temp <18 && humi >50 && humi <= 90}}">{{ad8}}</view>
+<view wx:elif = "{{temp >= 0 && temp <11 && humi >10 && humi <= 60}}">{{ad9}}</view>
+<view wx:elif = "{{temp >= -15 && temp <0 && humi >0 && humi <= 60}}">{{ad10}}</view>
+<view wx:elif = "{{temp < -15 && humi >0 && humi <= 60}}">{{ad11}}</view>
+<view wx:else >{{ad12}}</view>
+</view>
+
+<image  class="bg-image" mode="scaleToFill" src="../../images/wrap/wrap1.png"></image>
+
+<button hover-class="btn-hover" bindtap="adviseinput"><image class="button" src="../../images/button/button.jpg"></image></button>
+
+<image class="bg-image1" mode="scaleToFill" src="../../images/background/background2.jpg"></image>
+

@@ -1,0 +1,47 @@
+.humi-wrap{
+  margin-top: 70px;
+  margin-left: 80px;
+  display: flex;
+  font-size: large;
+  color: dimgray;
+}
+
+.temp-wrap{
+  margin-top: 30px;
+  margin-left: 80px;
+  display: flex;
+  font-size: large;
+  color: dimgray;
+}
+
+.advise{
+  margin-top: 100px;
+  margin-left:42px;
+  color: rgb(146, 209, 230);
+  width:275px;
+  height:270px;
+}
+
+.button{
+  margin-top: 20px;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+}
+
+.bg-image{
+  margin-top: 155px;
+  width : 360px;
+  height : 390px;  
+  position: fixed;  
+  z-index: -1;  
+  display: flex;
+}
+
+.bg-image1{
+  width : 100%;
+  height : 100%;  
+  position: fixed;  
+  z-index: -2;  
+  display: flex;
+}

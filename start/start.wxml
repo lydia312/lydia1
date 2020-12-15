@@ -1,0 +1,14 @@
+
+
+<view>
+<image class="bg-image" mode="scaleToFill" src="../images/background/background.jpg"></image>
+</view>
+
+
+<script type="text/javascript">
+
+  <view class="time">
+    <text>{{nowDate}}</text>
+    <text>{{weekday}}</text>
+  </view>
+</script>
